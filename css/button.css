@@ -1,0 +1,16 @@
+.button{
+    height: 2.2rem;
+    border-radius: .2rem;
+
+    padding: 0.4rem 0.8rem;
+
+    display: flex;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.yellow_button{
+    background-color: #ffe500;
+    color: black;
+}
+

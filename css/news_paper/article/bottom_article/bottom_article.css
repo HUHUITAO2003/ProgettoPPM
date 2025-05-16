@@ -1,0 +1,38 @@
+.bottom_article{
+    padding: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.bottom_article_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+
+.bottom_article_header .button{
+    width: fit-content;
+}
+
+.bottom_article_header h2{
+    margin: .5rem;
+    font-weight: normal;
+}
+
+.bottom_article_header .button:hover {
+    filter: brightness(80%);
+}
+
+.bottom_article_header #abbonati{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.news_article.bottom_article .article_photos img{
+    height: 15rem;
+    width: auto;
+}
+
+.news_article.bottom_article .article_photos a{
+    display: flex;
+    justify-content: center;
+}

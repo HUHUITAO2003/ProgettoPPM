@@ -1,0 +1,61 @@
+.sport_section{
+    padding: 3rem;
+}
+
+.sport_section .sport_section_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 0;
+}
+
+
+
+
+.sport_section .soccer_section_title{
+    grid-column: span 2;
+}
+.sport_section_article .article_header{
+    padding: 2rem 1.5rem;
+}
+
+.sport_section_article .article_header h2{
+    font-size: 1.6rem;
+}
+
+.sport_section hr{
+    display: block;
+    border: var(--white) solid .1rem;
+    height: 0;
+    width: 100%;
+}
+.sport_section .sport_team{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+}
+.sport_section .sport_team img{
+    grid-column: span 2;
+    height: auto;
+    width: 100%;
+    border-radius: 100%;
+}
+.sport_section .sport_team h3{
+    grid-column: span 3;
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-family: 'DM Serif Display', serif;
+    margin: auto;
+}
+
+@media (min-width: 0px) and (max-width: 1109px) {
+    .sport_section_content{
+        overflow-x: auto;
+    }
+    .sport_section_content article{
+        width: 20.5rem;
+    }
+    .sport_section_content::-webkit-scrollbar {
+        display: none;  /* Safari and Chrome */
+    }
+}

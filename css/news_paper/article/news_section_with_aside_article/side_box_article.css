@@ -1,0 +1,156 @@
+/*SIDE BOX ARTICLE*/
+/*news article with picture overflowing out*/
+
+.overflow_article .article_photos{
+    padding: 0 3rem;
+}
+
+
+.overflow_article {
+    margin-top: 3rem;
+}
+
+.overflow_article img:nth-child(1){
+    position: relative;
+    top: -3rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: -3rem;
+}
+
+.overflow_article .overflow_article_header{
+    padding: 0 3rem 3rem 3rem;
+}
+
+.overflow_article_header h2{
+    font-weight: normal;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.overflow_article_header .kicker{
+    font-size: 1.3rem;
+    position:relative;
+    z-index: 1000
+}
+
+.overflow_article strong{
+    font-weight: bold;
+}
+
+/*Try for overflow_article that have a "Title" over the picture*/
+.overflow_article .image_title{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overflow_article .arena_sport{
+    position: relative;
+    top: -3rem;
+    background-color: lightsalmon;
+    color: black;
+    font-size: 3rem;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin: 0;
+    font-weight: normal;
+}
+.overflow_article .arena_sport + img{
+    top: -3rem;
+    position: relative;
+    margin-bottom: -3rem;
+}
+
+.overflow_article .arena_economie{
+    position: relative;
+    top: -3rem;
+    background-color: lightseagreen;
+    color: var(--white);
+    font-size: 3rem;
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+}
+.overflow_article .arena_economie + img{
+    top: -3rem;
+    position: relative;
+    margin-bottom: -3rem;
+}
+
+
+/*Horizontal news article with image one third of width*/
+.side_box .horizontal_two_fifth{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    font-size: 1.13rem;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+.side_box .sub_section_content .horizontal_two_fifth h2{
+    font-weight: bold;
+}
+.side_box .horizontal_two_fifth .article_photos{
+    grid-column: span 2;
+}
+.side_box .horizontal_two_fifth .article_header{
+    grid-column: span 3;
+    padding: 0 1rem .7rem 1rem;
+}
+
+/*mention_article*/
+.widget-body::before {
+    padding-top: 7rem;
+    content: "“";
+    display: block;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20rem;
+    line-height: 1rem;
+}
+
+.mention{
+    position: relative;
+    padding: 3rem;
+}
+.mention .mention_phrase h3{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.mention .mention_phrase h2{
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin: .5rem 0 0 0;
+}
+
+.mention img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 8rem;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    max-height: 80px;
+    border: .3rem solid var(--white);
+}
+
+@media (min-width: 0px) and (max-width: 1109px) {
+    .side_box .horizontal_two_fifth{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 0;
+        font-size: 1.13rem;
+        font-family: 'DM Sans', sans-serif;
+        margin: 0;
+        padding: 1rem 0;
+    }
+    .side_box .horizontal_two_fifth .article_photos{
+        grid-column: span 1;
+    }
+    .side_box .horizontal_two_fifth .article_header{
+        grid-column: span 6;
+    }
+}

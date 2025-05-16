@@ -1,0 +1,34 @@
+#news_paper_title{
+    display: none;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding-bottom: 8px;
+    border-bottom: 5px solid;
+}
+
+#weather {
+    font-size: 2.8rem;
+}
+#weather i{
+    color: var(--dark-cerulean);
+}
+
+#news_paper_title #location, .date{
+    font-size: 1.4rem;
+}
+
+#news_paper_title h1{
+    margin: 0;
+    font-size: 10rem;
+    font-weight: bold;
+    line-height: 7rem;
+}
+
+/*HOVER*/
+#weather:hover{
+    transform: scale(1.15);
+}
+#weather{
+    transition: transform 300ms ease-out;
+}

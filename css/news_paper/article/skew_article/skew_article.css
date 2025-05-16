@@ -1,0 +1,25 @@
+.skew_section_article .skew_title {
+    margin: 0 0 0 1.5rem;
+    position: absolute;
+    transform: skew(-20deg, 0deg) translateY(-50%);
+    line-height: 1;
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.skew_title h3{
+    transform: skew(20deg, 0deg);
+    margin: 0;
+}
+.skew_section_article{
+    font-size: 1.1rem;
+}
+.skew_section_article .article_header{
+    padding: 2rem 1.5rem;
+    /*display: flex;
+    flex-flow: column;
+    align-self: stretch;
+    flex-grow: 1; /* Espande il contenitore di testo */
+    /*justify-content: start; /* Mantiene il testo in alto */
+}

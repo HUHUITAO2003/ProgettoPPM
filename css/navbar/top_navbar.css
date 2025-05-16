@@ -1,0 +1,127 @@
+/*NAVBAR GENERALE*/
+.top_navbar{
+    position: fixed;
+    z-index: 10;
+
+    width: 100%;
+    padding: 0.8rem 0;
+
+    display: none;
+    justify-content: space-between;
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.top_navbar{
+    font-weight: bold;
+}
+
+.top_navbar ul{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: stretch;
+}
+
+.top_navbar a:has(img){
+    display: flex;
+    align-items: center;
+}
+
+.top_navbar li{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.top_navbar > div {
+    display: flex;
+}
+
+
+/*NAVBAR SX*/
+.top_navbar #navbar_hamburger{
+    font-size: 2.8rem;
+}
+
+.top_navbar #navbar_hamburger i{
+    display: block;
+}
+
+.top_navbar #logo_arena{
+    height: 2.8rem;
+}
+
+.top_navbar #left_navbar li{
+    padding: 0 1.5rem;
+}
+
+.top_navbar #left_navbar_menu i{
+    margin-right: 1rem;
+}
+
+#left_navbar_menu > *:not(:nth-child(1), :nth-child(2)) {
+    border-left: 2px dotted var(--white);
+}
+
+.top_navbar #left_navbar_menu {
+    margin: 0.2rem 0;
+}
+
+/*NAVBAR DX*/
+.top_navbar #right_navbar_menu li{
+    margin-right: 1.5rem;
+}
+
+.logo_x{
+    height: 1.8rem;
+}
+
+
+
+/*HOVER*/
+.top_navbar a span:hover{
+    text-decoration: underline;
+}
+.top_navbar a:hover{
+    transform: scale(1.15);
+}
+.top_navbar a{
+    transition: transform 300ms ease-out;
+}
+.top_navbar #right_navbar_menu li:not(:last-child) a:hover{
+    transform: scale(1.5);
+}
+
+/*Smaller than lg*/
+.top_navbar.up_top_navbar{
+    position: static;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.top_navbar.down_top_navbar{
+    position: sticky;
+    top: 0;
+    padding: .8rem 0;
+    display: none;
+    align-items: center;
+    margin-bottom: -5rem;
+}
+.top_navbar.down_top_navbar > *{
+    margin: 0 1rem;
+}
+.top_navbar.down_top_navbar i{
+    font-size: 2.5rem;
+}
+.top_navbar.down_top_navbar > span{
+    font-size: 3rem;
+    font-family: 'DM Serif Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+

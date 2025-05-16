@@ -1,0 +1,15 @@
+.sub_section_title h2{
+    font-size: 3rem;
+    color: var(--theme-color);
+    margin: 0 0 1.5rem 0;
+    font-weight: normal;
+}
+
+.sub_section_content{
+    padding-top:1px
+}
+
+/*HOVER*/
+.sub_section_title:has(a):hover{
+    text-decoration: underline;
+}

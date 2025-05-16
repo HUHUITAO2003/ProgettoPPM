@@ -1,0 +1,56 @@
+@import "../header/header.css";
+@import "section/news_section_with_aside.css";
+@import "article/article.css";
+@import "section/skew_section.css";
+@import "section/sub_section.css";
+@import "section/sport_section.css";
+@import "section/bottom_section.css";
+@import "../footer/footer.css";
+@import "../navbar/bottom_navbar.css";
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#news_paper{
+    width: 97rem;
+    padding: 0 7rem;
+    position: relative;
+    top: 4.8rem;
+    background-color: var(--light-bg);
+}
+
+hr.divider {
+    margin: 1.5rem 0;
+    border-top: 0.2rem dotted var(--theme-color);
+}
+
+/*HOVER*/
+h2 a:hover {
+    text-decoration: underline;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 828px) and (max-width: 1109px) {
+    #news_paper{
+        width: 76.8rem;
+        padding: 0 3rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 827px) {
+    #news_paper{
+        width: 57.7rem;
+        padding: 0 1.5rem;
+    }
+}
+@media (min-width: 0px) and (max-width: 575px) {
+    #news_paper{
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,76 @@
+/*MAIN BOX ARTICLE*/
+/*one vertical*/
+.main_box .vertical_article{
+    font-size: 2.56rem;
+}
+.main_box .vertical_article .article_header{
+    padding: 2rem 3rem;
+}
+
+/*two vertical articles side by side*/
+.main_box .two_vertical_articles{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    font-size: 1.4rem;
+}
+.main_box .two_vertical_articles .left_article{
+    grid-column: span 1;
+}
+.main_box .two_vertical_articles .right_article{
+    grid-column: span 1;
+}
+
+.main_box .two_vertical_articles .article_header{
+    padding: 1.5rem;
+}
+
+
+/*Horizontal news article with image half of width*/
+.main_box .horizontal_half{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 0;
+    padding: 0;
+    font-size: 1.65rem;
+}
+.main_box .horizontal_half .article_photos{
+    grid-column: span 5;
+}
+.main_box .horizontal_half .article_header{
+    grid-column: span 6;
+    padding: 1.5rem;
+}
+
+/*Horizontal news article with image one third of width*/
+.main_box .horizontal_one_third{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding: 0;
+    font-size: 1.46rem;
+}
+
+.main_box .horizontal_one_third .article_photos{
+    grid-column: span 1;
+}
+.main_box .horizontal_one_third .article_header{
+    grid-column: span 2;
+    padding: 1.5rem;
+}
+
+/*Horizontal news article with image two fifth of width*/
+.main_box .horizontal_two_fifth{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    padding: 0;
+    font-size: 1.66rem;
+}
+.main_box .horizontal_two_fifth .article_photos{
+    grid-column: span 2;
+}
+.main_box .horizontal_two_fifth .article_header{
+    grid-column: span 3;
+    padding: .7rem;
+}

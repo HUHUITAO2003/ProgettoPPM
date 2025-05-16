@@ -1,0 +1,53 @@
+@import "theme.css";
+@import "navbar/top_navbar.css";
+@import "news_paper/news_paper.css";
+@import "button.css";
+
+
+html{
+    font-size: 62.5%;
+}
+
+h2{
+    word-break: break-word;
+    hyphens: auto;
+}
+
+body{
+    margin: 0;
+}
+
+.glyph::before {
+    content: "///";
+    font-family: 'DM Sans', sans-serif;
+    display: inline;
+    padding: 0 .25em 0 0;
+    white-space: pre-wrap;
+
+    color: var(--theme-color);
+}
+
+/*Media query*/
+@media (min-width: 1110px) {
+    .lg{
+        display: flex !important;;
+    }
+}
+
+@media (min-width: 828px) and (max-width: 1109px) {
+    .md{
+        display: flex !important;;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 827px) {
+    .sm{
+        display: flex !important;;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .xs{
+        display: flex !important;;
+    }
+}

@@ -1,0 +1,6 @@
+@import "news_paper_title.css";
+@import "hot_topics.css";
+
+header{
+    padding: 1.5rem 0;
+}

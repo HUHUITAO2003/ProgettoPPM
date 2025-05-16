@@ -1,0 +1,123 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --white-smoke: #f7f7f7;
+    --theme-color: #073e7c;
+    --dark-cerulean: #073e7c;
+    --fern-green: #4F7942;
+    --jewel: #00723d;
+    --red: #ff0000;
+    --dim-grey: #666;
+    --bright-red: #f95738;
+    --dark-grey: #333;
+    --platinum: #e7e4e4;
+    --midnight-blue: #031a34;
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    /*--red: #dc3545;*/
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --twilight-blue: #073e7c;
+    --gdv-red: #e70a10;
+    --tmn-red: #b92b2a;
+    --bso-blue: #1772d8;
+    --are-blue: #073e7c;
+    --are-yellow: #f4be00;
+    --ta-black: #000;
+    --rvr-blue: #030393;
+    --gdm-blue: #1a3b70;
+    --interview-bg: #dee4eb;
+    --light-bg: #f7f7f7;
+    --dark-bg: #333;
+    --rouge: #b61e44;
+
+    --secondary: #d7d7d7;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #e70a10;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 828px;
+    --breakpoint-lg: 1110px;
+    --font-family-sans-serif: "DM Sans", sans-serif;
+    --font-family-monospace: "Space Mono", monospace;
+}
+
+
+
+.bg_dark_cerulean {
+    background-color: var(--twilight-blue);
+    color: var(--white);
+}
+.bg_dark_cerulean .glyph::before{
+    color: var(--white);
+}
+
+.bg_fern_green {
+    background-color: var(--fern-green);
+    color: var(--white);
+}
+
+.bg_red{
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.bg_jewel{
+    background-color: var(--jewel);
+    color: var(--white);
+}
+
+.bg_white_smoke{
+    background-color: var(--white-smoke);
+    color: var(--dim-grey);
+}
+
+.bg_black{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.bg_bright_red{
+    background-color: var(--bright-red);
+    color: var(--white);
+}
+.bg_bright_red .glyph::before{
+    color: var(--white);
+}
+
+.bg_white{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.bg_dark_grey{
+    background-color: var(--dark-grey);
+    color: var(--white);
+}
+
+.bg_platinum{
+    background-color: var(--platinum);
+    color: var(--black);
+}
+.bg_midnight_blue{
+    background-color: var(--midnight-blue);
+    color: var(--white);
+}
+
+.bright_red_glyph .glyph::before {
+    color: var(--bright-red);
+}
+
